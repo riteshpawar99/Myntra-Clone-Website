@@ -15,10 +15,12 @@ const CategorySection = () => {
   ];
 
   return (
-    <section className="py-12">
-      <div className="container">
-        <h2 className="text-3xl font-bold mb-8">SHOP BY CATEGORY</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
+    <section className="py-12 bg-white">
+      <div className="container mx-auto px-4">
+        <h2 className="text-4xl font-bold mb-8 text-center">
+          SHOP BY <span className="text-muted-foreground">CATEGORY</span>
+        </h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6">
           {categories.map((category) => (
             <CategoryCard
               key={category.title}
