@@ -1,4 +1,10 @@
 import { useRef } from "react";
+import pocket1 from "@/assets/pocket-1.jpg";
+import pocket2 from "@/assets/pocket-2.jpg";
+import pocket3 from "@/assets/pocket-3.jpg";
+import pocket4 from "@/assets/pocket-4.jpg";
+import pocket5 from "@/assets/pocket-5.jpg";
+import pocket6 from "@/assets/pocket-6.jpg";
 
 interface PriceCard {
   image: string;
@@ -11,12 +17,12 @@ const PocketFriendlySection = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const cards: PriceCard[] = [
-    { image: "/placeholder.svg", title: "BB & CC Creams", originalPrice: 399, salePrice: 149 },
-    { image: "/placeholder.svg", title: "Supportive Bras", originalPrice: 1099, salePrice: 399 },
-    { image: "/placeholder.svg", title: "Easy Casual Shoes", originalPrice: 2499, salePrice: 699 },
-    { image: "/placeholder.svg", title: "Chic Co-Ords", originalPrice: 1949, salePrice: 699 },
-    { image: "/placeholder.svg", title: "Elegant Dresses", originalPrice: 1549, salePrice: 499 },
-    { image: "/placeholder.svg", title: "Striking Flats", originalPrice: 1549, salePrice: 549 },
+    { image: pocket1, title: "BB & CC Creams", originalPrice: 399, salePrice: 149 },
+    { image: pocket2, title: "Supportive Bras", originalPrice: 1099, salePrice: 399 },
+    { image: pocket3, title: "Easy Casual Shoes", originalPrice: 2499, salePrice: 699 },
+    { image: pocket4, title: "Chic Co-Ords", originalPrice: 1949, salePrice: 699 },
+    { image: pocket5, title: "Elegant Dresses", originalPrice: 1549, salePrice: 499 },
+    { image: pocket6, title: "Striking Flats", originalPrice: 1549, salePrice: 549 },
   ];
 
   return (

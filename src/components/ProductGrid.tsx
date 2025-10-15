@@ -6,6 +6,18 @@ import product3 from "@/assets/product-3.jpg";
 import product4 from "@/assets/product-4.jpg";
 import product5 from "@/assets/product-5.jpg";
 import product6 from "@/assets/product-6.jpg";
+import product7 from "@/assets/product-7.jpg";
+import product8 from "@/assets/product-8.jpg";
+import product9 from "@/assets/product-9.jpg";
+import product10 from "@/assets/product-10.jpg";
+import product11 from "@/assets/product-11.jpg";
+import product12 from "@/assets/product-12.jpg";
+import product13 from "@/assets/product-13.jpg";
+import product14 from "@/assets/product-14.jpg";
+import product15 from "@/assets/product-15.jpg";
+import product16 from "@/assets/product-16.jpg";
+import product17 from "@/assets/product-17.jpg";
+import product18 from "@/assets/product-18.jpg";
 import { useApp } from "@/contexts/AppContext";
 
 interface ProductGridProps {
@@ -76,6 +88,126 @@ const ProductGrid = ({ category }: ProductGridProps) => {
       originalPrice: 1799,
       discount: 50,
       category: "women",
+    },
+    {
+      id: "7",
+      image: product7,
+      brand: "Roadster",
+      title: "Men Grey Casual Shirt",
+      price: 799,
+      originalPrice: 1599,
+      discount: 50,
+      category: "men",
+    },
+    {
+      id: "8",
+      image: product8,
+      brand: "Caprese",
+      title: "Women Elegant Handbag",
+      price: 1299,
+      originalPrice: 2599,
+      discount: 50,
+      category: "women",
+    },
+    {
+      id: "9",
+      image: product9,
+      brand: "Puma",
+      title: "Kids Colorful Sneakers",
+      price: 1499,
+      originalPrice: 2999,
+      discount: 50,
+      category: "kids",
+    },
+    {
+      id: "10",
+      image: product10,
+      brand: "Vero Moda",
+      title: "Women Floral Print Top",
+      price: 599,
+      originalPrice: 1199,
+      discount: 50,
+      category: "women",
+    },
+    {
+      id: "11",
+      image: product11,
+      brand: "Adidas",
+      title: "Men Athletic Sports Shoes",
+      price: 2499,
+      originalPrice: 4999,
+      discount: 50,
+      category: "men",
+    },
+    {
+      id: "12",
+      image: product12,
+      brand: "Fastrack",
+      title: "Women Designer Sunglasses",
+      price: 899,
+      originalPrice: 1799,
+      discount: 50,
+      category: "women",
+    },
+    {
+      id: "13",
+      image: product13,
+      brand: "Wrangler",
+      title: "Men Denim Blue Jeans",
+      price: 1799,
+      originalPrice: 3599,
+      discount: 50,
+      category: "men",
+    },
+    {
+      id: "14",
+      image: product14,
+      brand: "Hopscotch",
+      title: "Kids Cute Cartoon T-Shirt",
+      price: 399,
+      originalPrice: 799,
+      discount: 50,
+      category: "kids",
+    },
+    {
+      id: "15",
+      image: product15,
+      brand: "Fossil",
+      title: "Women Elegant Watch",
+      price: 3999,
+      originalPrice: 7999,
+      discount: 50,
+      category: "women",
+    },
+    {
+      id: "16",
+      image: product16,
+      brand: "Peter England",
+      title: "Men Formal Suit Blazer",
+      price: 3499,
+      originalPrice: 6999,
+      discount: 50,
+      category: "men",
+    },
+    {
+      id: "17",
+      image: product17,
+      title: "Women Ethnic Kurta",
+      brand: "Libas",
+      price: 1299,
+      originalPrice: 2599,
+      discount: 50,
+      category: "women",
+    },
+    {
+      id: "18",
+      image: product18,
+      brand: "Skybags",
+      title: "Kids Colorful Backpack",
+      price: 799,
+      originalPrice: 1599,
+      discount: 50,
+      category: "kids",
     },
   ];
 
