@@ -37,7 +37,7 @@ const PocketFriendlySection = () => {
                 key={index}
                 className="flex-shrink-0 w-[280px] snap-start"
               >
-                <div className="relative rounded-2xl overflow-hidden border-4 border-dashed border-[hsl(45,93%,58%)] bg-gradient-to-br from-white to-gray-50 shadow-lg hover:shadow-xl transition-shadow">
+                <div className="relative rounded-2xl overflow-hidden border-4 border-dashed border-[hsl(45,93%,58%)] bg-gradient-to-br from-white to-gray-50 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer">
                   <div className="aspect-[3/4] bg-muted">
                     <img
                       src={card.image}
