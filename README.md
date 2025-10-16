@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/ac824bba-091b-42cb-afed-992b8cd4fd0e
+MYNTRA CLONE APP
 
 ## How can I edit this code?
 
