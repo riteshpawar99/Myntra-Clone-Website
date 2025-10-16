@@ -52,16 +52,16 @@ const Header = () => {
               <Link to="/kids" className="text-sm font-bold text-foreground hover:border-b-4 hover:border-primary pb-6 pt-6 transition-all uppercase tracking-wide">
                 KIDS
               </Link>
-              <Link to="/" className="text-sm font-bold text-foreground hover:border-b-4 hover:border-primary pb-6 pt-6 transition-all uppercase tracking-wide">
-                HOME
+              <Link to="/home-living" className="text-sm font-bold text-foreground hover:border-b-4 hover:border-primary pb-6 pt-6 transition-all uppercase tracking-wide">
+                HOME & LIVING
               </Link>
-              <Link to="/" className="text-sm font-bold text-foreground hover:border-b-4 hover:border-primary pb-6 pt-6 transition-all uppercase tracking-wide">
+              <Link to="/beauty" className="text-sm font-bold text-foreground hover:border-b-4 hover:border-primary pb-6 pt-6 transition-all uppercase tracking-wide">
                 BEAUTY
               </Link>
-              <Link to="/" className="text-sm font-bold text-foreground hover:border-b-4 hover:border-primary pb-6 pt-6 transition-all uppercase tracking-wide">
+              <Link to="/genz" className="text-sm font-bold text-foreground hover:border-b-4 hover:border-primary pb-6 pt-6 transition-all uppercase tracking-wide">
                 GENZ
               </Link>
-              <Link to="/" className="relative text-sm font-bold text-foreground hover:border-b-4 hover:border-primary pb-6 pt-6 transition-all uppercase tracking-wide">
+              <Link to="/studio" className="relative text-sm font-bold text-foreground hover:border-b-4 hover:border-primary pb-6 pt-6 transition-all uppercase tracking-wide">
                 STUDIO
                 <Badge className="absolute -top-1 -right-8 bg-red-500 text-white text-[9px] px-1.5 py-0">NEW</Badge>
               </Link>
