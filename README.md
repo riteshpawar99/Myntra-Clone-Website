@@ -1,4 +1,4 @@
-# 👗 MYNTRA CLONE APP  
+# 👗 MYNTRA CLONE WEBSITE  
 
 A fully functional **e-commerce clone of Myntra**, built with **React, TypeScript, and Tailwind CSS**, designed to replicate modern online shopping experiences.  
 This project demonstrates frontend expertise, component reusability, responsive UI design, and integration of interactive features such as product listings, filters, and promotional banners.  
