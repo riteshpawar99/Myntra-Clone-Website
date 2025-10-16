@@ -1,4 +1,4 @@
-# 🛍️ MYNTRA CLONE APP  
+# 🛍️ MYNTRA CLONE WEBSITE  
 
 A modern, responsive **e-commerce web application** inspired by **Myntra**, built from scratch using **React, TypeScript, Tailwind CSS**, and **Vite**.  
 
