@@ -152,7 +152,7 @@ vercel deploy
 
 ## 👨‍💻 Author  
 
-**Developed by [Your Name]**  
+**Developed by [RITESSH PAWAR]**  
 📧 Email: riteshpawar754@gmail.com  
 🔗 LinkedIn: https://www.linkedin.com/in/ritesh-pawar-1354ba21a  
 
